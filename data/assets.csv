@@ -1,0 +1,19 @@
+asset_id,asset_name,asset_type,security_domain,zone,ip_address,criticality,exposure,authentication,logging,backup_required
+ELV-001,BMS Application Server,Server,BMS,OT-BMS,10.20.10.10,Critical,Internal,AD-MFA,SIEM,Yes
+ELV-002,BMS Engineering Workstation,Workstation,BMS,OT-BMS,10.20.10.20,High,Internal,AD-MFA,SIEM,Yes
+ELV-003,HVAC Controller 01,Controller,HVAC,OT-BMS,10.20.20.10,Critical,Internal,Local,Limited,Yes
+ELV-004,Environmental Sensor Gateway,Gateway,Environmental,OT-BMS,10.20.20.20,High,Internal,Certificate,SIEM,Yes
+ELV-005,CCTV VMS Server,Server,CCTV,CCTV,10.30.10.10,Critical,Internal,AD-MFA,SIEM,Yes
+ELV-006,CCTV Recording Storage,Storage,CCTV,CCTV,10.30.10.20,High,Internal,AD,SIEM,Yes
+ELV-007,CCTV Camera 01,Camera,CCTV,CCTV,10.30.20.10,Medium,Internal,Device,Limited,No
+ELV-008,CCTV Camera 02,Camera,CCTV,CCTV,10.30.20.11,Medium,Internal,Device,Limited,No
+ELV-009,Access Control Server,Server,Access Control,ACS,10.40.10.10,Critical,Internal,AD-MFA,SIEM,Yes
+ELV-010,Door Controller 01,Controller,Access Control,ACS,10.40.20.10,High,Internal,Local,Limited,Yes
+ELV-011,Card Reader 01,Reader,Access Control,ACS,10.40.30.10,Medium,Physical,Device,Limited,No
+ELV-012,Security Management Workstation,Workstation,Physical Security,Management,10.50.10.10,High,Internal,AD-MFA,SIEM,Yes
+ELV-013,Vendor VPN Gateway,Network,Remote Access,DMZ,10.60.10.10,Critical,External,MFA,SIEM,Yes
+ELV-014,PAM Jump Server,Server,Privileged Access,Management,10.50.20.10,Critical,Internal,MFA,SIEM,Yes
+ELV-015,Core Network Switch,Network,Network,Management,10.50.30.10,Critical,Internal,AAA,SIEM,Config Backup
+ELV-016,Facility Monitoring Server,Server,DCIM,Management,10.50.40.10,High,Internal,AD-MFA,SIEM,Yes
+ELV-017,UPS Management Interface,Controller,Power,Facilities,10.70.10.10,Critical,Internal,Local,Limited,Yes
+ELV-018,Facilities Admin Laptop,Workstation,Facilities,Management,10.50.50.10,High,Internal,MFA,SIEM,Yes
