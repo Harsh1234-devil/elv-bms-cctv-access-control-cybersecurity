@@ -1,55 +1,85 @@
-# ELV, BMS, CCTV & Access Control Cybersecurity Assessment
+# ELV, BMS, CCTV & Access Control Cybersecurity Assessment Framework
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-success)
+![Security](https://img.shields.io/badge/Focus-Cybersecurity-critical)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)
+![NIST CSF](https://img.shields.io/badge/NIST-CSF%202.0-blue)
+![IEC 62443](https://img.shields.io/badge/IEC-62443-orange)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Project-informational)
 
 ## Overview
 
-This project presents a cybersecurity assessment framework for Enterprise Low-Voltage (ELV), Building Management Systems (BMS), CCTV surveillance, Access Control Systems (ACS), and related physical-security infrastructure.
+This project presents a professional cybersecurity assessment framework for **Enterprise Low-Voltage (ELV), Building Management Systems (BMS), CCTV/Video Management Systems (VMS), Access Control Systems (ACS), DCIM, HVAC, UPS and supporting facility infrastructure**.
 
-The objective is to identify cyber risks created by the convergence of physical security, building automation, IT networks, operational technology, remote/vendor access, and critical infrastructure.
+The project models a cyber-physical enterprise environment where IT, operational technology, building automation and physical-security systems intersect.
 
-## Security Domains
+The objective is to identify attack surfaces, evaluate security weaknesses, understand realistic attack paths, prioritize risk and define actionable remediation.
 
-- ELV Infrastructure
-- Building Management System (BMS)
-- Data Center Infrastructure Management (DCIM)
-- CCTV / Video Management System (VMS)
-- Access Control System (ACS)
-- HVAC and environmental monitoring
-- UPS / power-management interfaces
-- Network and management infrastructure
-- Remote and vendor access
+> **Portfolio / Lab Project:** All infrastructure, assets, findings, evidence and assessment results are simulated or synthetic. No production environment was tested.
 
-## Assessment Methodology
+---
 
-1. Asset Discovery
-2. Architecture Review
-3. Network & Trust-Zone Analysis
-4. Attack Surface Identification
-5. Threat Modeling
-6. Vulnerability Assessment
-7. Attack-Path Analysis
-8. Risk Scoring
-9. Security Control Mapping
-10. Remediation Planning
-
-## Security Frameworks
-
-- NIST Cybersecurity Framework
-- MITRE ATT&CK
-- IEC 62443 concepts
-- ISO/IEC 27001
-- Zero Trust principles
-- Network segmentation
-- Privileged Access Management
-
-## Project Goals
+# Project Objectives
 
 - Identify cyber-physical attack surfaces
-- Detect insecure communications and configurations
-- Assess remote/vendor access risks
-- Evaluate network segmentation
-- Identify weak authentication and authorization controls
-- Map threats to business impact
-- Prioritize remediation activities
-- Improve cyber resilience of critical facility systems
+- Assess ELV, BMS, CCTV and Access Control infrastructure
+- Evaluate network segmentation and trust boundaries
+- Assess authentication, authorization and privileged access
+- Analyze remote/vendor access risks
+- Identify vulnerabilities and configuration weaknesses
+- Map attack paths and security consequences
+- Prioritize findings using risk scoring
+- Map findings to MITRE ATT&CK and NIST CSF 2.0
+- Develop remediation and re-test procedures
+- Demonstrate a repeatable cybersecurity assessment workflow
 
-> This project uses simulated infrastructure and synthetic assessment data for educational and portfolio purposes.
+---
+
+# Security Domains
+
+| Domain | Assessment Focus |
+|---|---|
+| ELV Infrastructure | Cyber-physical attack surface |
+| BMS | Building automation security |
+| DCIM | Data-center infrastructure monitoring |
+| CCTV / VMS | Surveillance infrastructure |
+| Access Control | Physical access security |
+| HVAC | Environmental control systems |
+| UPS / Power | Critical facility management |
+| Network | Segmentation and management security |
+| Remote Access | VPN, vendor and privileged access |
+| Monitoring | SIEM and security telemetry |
+
+---
+
+# Assessment Methodology
+
+The assessment follows a structured lifecycle:
+
+```text
+Planning & Scoping
+        ↓
+Asset Discovery
+        ↓
+Architecture Review
+        ↓
+Trust-Zone Analysis
+        ↓
+Attack Surface Identification
+        ↓
+Threat Modeling
+        ↓
+Vulnerability Assessment
+        ↓
+Controlled VAPT
+        ↓
+Risk Scoring
+        ↓
+MITRE / NIST Mapping
+        ↓
+Remediation
+        ↓
+Re-Test
+        ↓
+Risk Closure
